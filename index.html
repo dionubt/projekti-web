@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Album Store</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#login">Log In</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+        </ul>
+    </nav>
+
+<section id="home" class="full-page">
+    <div class="container">
+        <div class="content">
+            <div class="text">
+                <h1>Welcome to Our Music Store</h1>
+                <p><b>If you are looking for great albums with fast shipping this is the righ place for you</b></p>
+            
+            </div>
+            <div class="image">
+                <img src="30867484-handsome-young-man-listening-to-music-guy-wearing-headphones-with-closed-eyes-on-grey-background.jpg" alt="Store Image" width="650" height="432.5">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    
+<section id="product" class="full-page">
+    <div class="container">
+        <h2>Music Albums</h2>
+        <div class="album-container">
+           
+            <div class="album">
+                <img src="Jack_Harlow_-_Jackman.png" alt="Album 1" width="300" height="300">
+                <h3>Jack Harlow</h3>
+                <p>Jackman (2023)</p>
+                <p>Price: $19.99</p>
+                <button class="buy-button" data-album="Album 1" data-price="10.99">Buy Now</button>
+            </div>
+            <div class="album">
+                <img src="Portrait-The-Weeknd.jpg" alt="Album 1" width="300" height="300">
+                <h3>The Weekend </h3>
+                <p>Starboy (2016)</p>
+                <p>Price: $10.99</p>
+                <button class="buy-button" data-album="Album 1" data-price="10.99">Buy Now</button>
+            </div>
+            <div class="album">
+                <img src="df7eeb83a07162b45ac2e882cac055de9411054a_cover.avif" alt="Album 1" width="300" height="300">
+                <h3>Nirvana</h3>
+                <p>Nevermind (1991)</p>
+                <p>Price: $12.99</p>
+                <button class="buy-button" data-album="Album 1" data-price="10.99">Buy Now</button>
+            </div>
+            <div class="album">
+                <img src="Encore_(Eminem_album)_coverart.jpg" alt="Album 1" width="300" height="300">
+                <h3>Eminem</h3>
+                <p>Encore (2004)</p>
+                <p>Price: $10.99</p>
+                <button class="buy-button" data-album="Album 1" data-price="10.99">Buy Now</button>
+            </div>
+            <div class="album">
+                <img src="613eDDaw9uL._UF894,1000_QL80_.jpg" alt="Album 1" width="300" height="300">
+                <h3>One Direction</h3>
+                <p>Up all night (2011)</p>
+                <p>Price: $9.99</p>
+                <button class="buy-button" data-album="Album 1" data-price="10.99">Buy Now</button>
+            </div>
+            <div class="album">
+                <img src="6f52cd9bdf564954c9df5a574db26cc4.webp" alt="Album 1" width="300" height="300">
+                <h3>Shakira</h3>
+                <p>Shakira (2014)</p>
+                <p>Price: $14.99</p>
+                <button class="buy-button" data-album="Album 1" data-price="10.99">Buy Now</button>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
+
+
+   
+    <section id="about" class="full-page">
+        <div class="container"><br><br><br>
+            <div class="content2">
+                <div class="text2">
+                    <h1>About us</h1>
+                    <p>Discover and shop for your favorite music albums.</p>
+                    <p>We provide a wide arange of products frmo r&b to hip hop and even rock roll so what ever youre looking for we have</p>
+                </div>
+                <div class="image2">
+                    <img src="1_1AZ1u9MDBtvDhNXTD5SLTg.jpg" alt="Store Image" width="650" height="432.5">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+<section id="login" class="full-page">
+    <div class="container">
+        <div id="loginForm">
+            <h1>Login</h1>
+            <form>
+                <ul>
+                    <li>
+                        <label for="loginUsername">Username:</label>
+                    </li>
+                    <li>
+                        <input type="text" id="loginUsername" name="loginUsername" required>
+                    </li>
+                    <li>
+                        <label for="loginPassword">Password:</label>
+                    </li>
+                    <li>
+                        <input type="password" id="loginPassword" name="loginPassword" required>
+                    </li>
+                    <li>
+                        <button type="button" onclick="performLogin()">Log In</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="signup" class="full-page">
+    <div class="container">
+        
+            <h1>Formulari i Regjstrimit</h1>
+            <p>Përdorni tab për të lëvizur nga një fushë në tjetrën.</p>
+            <form>
+            <ul>
+            <li><label>Perdoruesi:</label></li>
+            <li><input type="text" id="userid" size="15" /></li>
+            <li><label>Fjalkalimi:</label></li>
+            <li><input type="password" id="pass" size="15" /></li>
+            <li><label>Emri dhe Mbiemri:</label></li>
+            <li><input type="text" id="emri" size="40" /></li>
+            <li><label>Email:</label></li>
+            <li><input type="text" id="adresaEmailit" size="40" /></li>
+            <li><input type="submit" value="Submit" id="submit-btn" /></li>
+            </ul>
+        </form>    
+        
+
+            
+    </div>
+</section>
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            const BtnSubmit = document.getElementById('submit-btn');
+    
+            
+            const validate = (event) => {
+                event.preventDefault();
+                const perdoruesi = document.getElementById('userid');
+                const fjalkalimi = document.getElementById('pass');
+                const emrin = document.getElementById('emri');
+                const emailin = document.getElementById('adresaEmailit');
+    
+                if (perdoruesi.value === "") {
+                    alert("Ju lutem shtoni perdoruesin.");
+                    perdoruesi.focus();
+                    return false;
+                }
+                if (fjalkalimi.value === "") {
+                    alert("Ju lutem shtoni Fjalkalimin.");
+                    fjalkalimi.focus();
+                    return false;
+                }
+                if (emrin.value === "") {
+                    alert("Ju lutem shtoni emrin e Plote.");
+                    emrin.focus();
+                    return false;
+                }
+                if (emailin.value === "") {
+                    alert("Ju lutem shtoni email'in.");
+                    emailin.focus();
+                    return false;
+                }
+            };
+    
+            BtnSubmit.addEventListener('click', validate);
+        });
+
+        
+
+function performLogin() {
+    
+    const username = document.getElementById('loginUsername').value;
+    const password = document.getElementById('loginPassword').value;
+
+    
+    if (username === 'demo' && password === 'demo123') {
+        alert('Login successful!');
+     
+    } else {
+        alert('Invalid username or password. Please try again.');
+    }
+}
+
+    </script>
+    
+   <footer><b>Thank you for using our website</b></footer>
+    
+  
+
+</body>
+</html>
+

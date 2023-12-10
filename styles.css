@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.full-page {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.text, .image {
+    margin: 10px;
+}
+
+.text {
+    text-align: left;
+    flex: 1; 
+}
+
+.image {
+    text-align: right;
+    flex: 1; 
+}
+
+#home {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+
+
+
+.content2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.text2, .image2 {
+    margin: 10px; 
+}
+
+.text2 {
+    text-align: right;
+    flex: 1; 
+}
+
+.image2 {
+    text-align: left;
+    flex: 1; /
+}
+
+#product {
+    background: #fff;
+    padding: 20px;
+}
+
+.album-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.album {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.buy-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+#about {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+#signup {
+    background: #fff;
+    padding: 20px;
+}
+
+#login {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+
+
+
+#submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer{
+    background:linear-gradient(to right, #4b6cb7, #182848);
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration-color: white;
+}
+
+#login {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+#signup {
+    background: #fff;
+    padding: 20px;
+}
+
+#loginForm,
+ {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#loginForm h1 {
+    color: #333;
+}
+
+#loginForm form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#loginForm form li {
+    margin-bottom: 15px;
+}
+
+#loginForm form label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#loginForm form input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#loginForm form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
