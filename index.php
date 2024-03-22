@@ -1,9 +1,11 @@
 <?php
 session_start();
-
+//Dion berisha
 require_once 'database.php';
 
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
