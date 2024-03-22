@@ -60,15 +60,7 @@ require_once 'database.php';
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12077.119722963548!2d-74.00594135444148!3d40.7127764430368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa9bbee6d3c0ae62e!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1631642521159!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </div>
-  <div id="news" class="news-section">
-    <h2>News</h2>
-    
-    <p>Exciting times for music lovers! Several highly anticipated albums are hitting the shelves this month, 
-      spanning various genres from hip-hop to rock. Get ready to groove to fresh beats and powerful lyrics as 
-      artists unleash their latest creations, promising to captivate listeners worldwide.</p>
-      
-    
-  </div>
+  
   
 
   </body>
