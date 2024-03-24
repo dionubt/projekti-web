@@ -1,3 +1,30 @@
+<?php
+// Establish database connection
+$servername = "localhost";
+$username = "your_mysql_username";
+$password = "your_mysql_password";
+$database = "your_database_name";
+
+$conn = new mysqli($servername, $username, $password, $database);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Handle purchase
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['buy-button'])) {
+    $album = $_POST['album'];
+    $price = $_POST['price'];
+
+    // Insert purchase information into database
+    $sql = "INSERT INTO purchases (album, price) VALUES ('$album', $price)";
+    if ($conn->query($sql) === TRUE) {
+        echo "Purchase recorded successfully.";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
